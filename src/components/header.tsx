@@ -9,8 +9,7 @@ export function Header({ className }: { className?: string }) {
             }
         >
             <Link href="/" title="Vá para a Home Page">
-                Bombeiros Logo
-                {/* <Logo className="text-foreground w-6" /> */}
+                Torneios Life Saving
             </Link>
             <nav className="flex gap-3 items-center">
                 <ul className="flex gap-3">
@@ -28,6 +27,14 @@ export function Header({ className }: { className?: string }) {
                             href="/torneios"
                         >
                             Torneios
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            className="text-muted-foreground hover:underline hover:underline-offset-4"
+                            href="/equipe"
+                        >
+                            Equipe
                         </Link>
                     </li>
                 </ul>
